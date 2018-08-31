@@ -42,10 +42,10 @@ sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["u90ffebff8c340434bd477ba4b56b8882"]
+owner = ["u90ffebff8c340434bd477ba4b56b8882"]
+admin = ["u90ffebff8c340434bd477ba4b56b8882"]
+staff = ["u90ffebff8c340434bd477ba4b56b8882"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -131,8 +131,8 @@ wait = {
     "selfbot":True,
     "mention":"SINI KAK GABUNG CHAT AJA 😊",
     "Respontag":"SEKAARNG TAG BESOK JATUH CINTA",
-    "welcome":"Selamat datang & betah",
-    "comment":"Like like & like by ARIFISTIFIK",
+    "welcome":"Selamat datang ",
+    "comment":"Like like & like by FerryHandana",
     "message":"Terimakasih sudah add saya 😃",
     }
 
@@ -423,7 +423,7 @@ def helpbot():
                   "⏩" + key + "Bot3up「Kirim fotonya」\n" + \
                   "⏩" + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "⏩" + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "⏩ANTI JS V-2⏪"
+                  "⏩FerryhanDanNia V-2⏪"
     return helpMessage1
 
 def bot(op):
@@ -1333,7 +1333,7 @@ def bot(op):
 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"Creator Bot ARIFISTIFIK") 
+                                cl.sendText(msg.to,"Creator Bot Ferryhan") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
@@ -1744,7 +1744,7 @@ def bot(op):
                                 sw.sendMessage(msg.to,"Nama diganti jadi " + string + "")
 
 #===========BOT UPDATE============#
-                        elif cmd == "tagall" or text.lower() == '😆':
+                        elif cmd == "panggil" or text.lower() == '😆':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                group = cl.getGroup(msg.to)
