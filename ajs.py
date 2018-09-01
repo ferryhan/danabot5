@@ -10,32 +10,32 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
-cl = LineClient()
-#cl = LineClient(authToken='ISI TOKENMU  DISINI')
+#cl = LineClient()
+cl = LineClient(authToken='Ews8wYOAtnKOxoJpQV92.Kp+R+4W0bds9r3UKTwUiGG.sLSdciASje5+cMQtbqjBncjwKwn31wByA3jeRdLiNjU=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient()
-#ki = LineClient(authToken='ISI TOKENMU  DISINI')
+#ki = LineClient()
+ki = LineClient(authToken='Ewoo8kmzlXjtGULNtQde.1noYVckuQT2Ay13FkSnVpG.DIshpqhCnBv1RzbUFgKpOm4b2aYhbo23oGrjvTfba68=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient()
-#kk = LineClient(authToken='ISI TOKENMU  DISINI')
+#kk = LineClient()
+kk = LineClient(authToken='EwZTc78PopMfs5lg01J2.yiXMzEF4Hjnttt8iXTIlyG.WQJWmkr/cPzv1WtZlIkJJPbrK8+5+tosjwZIBBGS6/c=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient()
-#kc = LineClient(authToken='ISI TOKENMU  DISINI')
+#kc = LineClient()
+kc = LineClient(authToken='EwX95gzrqmvXTe8Ey8K6.IiJnPeResOKRi4vJwMMpvG.QSJddu6jw9HwAlA/baC+bHaM1x3InQ5lSQRXdTrx0kg=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient()
-#sw = LineClient(authToken='ISI TOKENMU  DISINI')
+#sw = LineClient()
+sw = LineClient(authToken='EwXGdvyPpcORAvFYVdA6.fBem7DgDAEJpMQ3oNxcZbG.M7exEQ221vny+mqZHS19KcBuFhVPWWOPd2BYLE0oSjI=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
