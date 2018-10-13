@@ -23,7 +23,7 @@ channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='ExtzCM6TT4BNjym95vp4.QJHUBBcJbrUg0IhVJ/PV1a.ga3CcRbdULeJFb0pIIt+1n7hw+hqe9nDdqL3bfMEFlQ='')
+kk = LineClient(authToken='ExtzCM6TT4BNjym95vp4.QJHUBBcJbrUg0IhVJ/PV1a.ga3CcRbdULeJFb0pIIt+1n7hw+hqe9nDdqL3bfMEFlQ=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
