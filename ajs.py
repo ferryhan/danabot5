@@ -11,31 +11,31 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 #cl = LineClient()
-cl = LineClient(authToken='Ews8wYOAtnKOxoJpQV92.Kp+R+4W0bds9r3UKTwUiGG.sLSdciASje5+cMQtbqjBncjwKwn31wByA3jeRdLiNjU=')
+cl = LineClient(authToken='ExE5gDLIHoiyfzrSSwV2.Kp+R+4W0bds9r3UKTwUiGG.ilNg8ITij59czLUxeuI23KuvAPVJV2pW69puvkwvrnI=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='Ewoo8kmzlXjtGULNtQde.1noYVckuQT2Ay13FkSnVpG.DIshpqhCnBv1RzbUFgKpOm4b2aYhbo23oGrjvTfba68=')
+ki = LineClient(authToken='ExVkWOErNPa8UL45T4Id.ZpfKOga1xvm/sE2tz97b3q.L3idN8X1qnyQ1Cg2WRytBjcbfKOPCC2p4Z5PWhv9Lmw=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='EwZTc78PopMfs5lg01J2.yiXMzEF4Hjnttt8iXTIlyG.WQJWmkr/cPzv1WtZlIkJJPbrK8+5+tosjwZIBBGS6/c=')
+kk = LineClient(authToken='ExtzCM6TT4BNjym95vp4.QJHUBBcJbrUg0IhVJ/PV1a.ga3CcRbdULeJFb0pIIt+1n7hw+hqe9nDdqL3bfMEFlQ='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 #kc = LineClient()
-kc = LineClient(authToken='EwX95gzrqmvXTe8Ey8K6.IiJnPeResOKRi4vJwMMpvG.QSJddu6jw9HwAlA/baC+bHaM1x3InQ5lSQRXdTrx0kg=')
+kc = LineClient(authToken='Ex0x7Rthd5Es6eRZBlme.PohwkyEiZuNAraTvSMV2hG.g9+eq0SymyZ6B4NYlMfhctI2dyei9y7VJcWGuyIjfRE=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 #sw = LineClient()
-sw = LineClient(authToken='EwXGdvyPpcORAvFYVdA6.fBem7DgDAEJpMQ3oNxcZbG.M7exEQ221vny+mqZHS19KcBuFhVPWWOPd2BYLE0oSjI=')
+sw = LineClient(authToken='Ex68EhUtLW1JWK3V8SUa.t/Z+Jp0g2JmduZpxNHO86G.QSTCPPCrrJAqze/Rbwkwx5rY8aCLMJiV07llLjX6vGc=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
